@@ -20,7 +20,7 @@ embeddings = np.load("book_embeddings.npy")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 st.set_page_config(page_title="Sistem Rekomendasi Buku", layout="centered")
-st.title("📚 Sistem Rekomendasi Buku Berbasis LLM")
+st.title("📚 Sistem Rekomendasi Buku")
 st.write("Masukkan topik atau preferensi Anda, dan sistem akan merekomendasikan buku paling relevan berdasarkan deskripsi.")
 
 query = st.text_input("🔍 Contoh: Harry Potter, Adventure Kids, Comedy")
